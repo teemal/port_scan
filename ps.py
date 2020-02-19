@@ -2,9 +2,6 @@ import dpkt, socket, sys
 
 THRESHOLD = 3
 
-#=FUNCTIONS===================================================================#
-
-
 def tcpFlags(tcp):
     ret = list()
 
