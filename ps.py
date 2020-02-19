@@ -4,6 +4,7 @@ SYN_SYNACK_RATIO = 3
 
 #=FUNCTIONS===================================================================#
 
+
 def tcpFlags(tcp):
     """Returns a list of the set flags in this TCP packet."""
     ret = list()
